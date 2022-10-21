@@ -1,3 +1,4 @@
+/* Основные стили */
 html, body {
     background-image: url(../img/backgrondAutorization.png);
     background-position: center center;     
@@ -14,9 +15,12 @@ main {
     justify-content: center;
     height: 100%;
 }
+
+/* Блок */
 .blockOpacity {
     display: block;
     width: 30%;
+    border-radius: 5px;
     background: #ffffff18;
 }
 .blockOpacity table {
@@ -30,13 +34,15 @@ main {
 .blockOpacity td:last-child h1 {
     text-align: right;
 }
-.blockOpacity h1, a {
+.headlines h1, .headlines a {
     text-transform: uppercase;
     text-align: center;
     color: #ffffffd3;
     text-decoration: none;
     font-size: 30px;
 }
+
+/* Форма */
 .formAutorization {
     width: 90%;
     border-top: 1px solid #ffffffcc;
@@ -67,18 +73,22 @@ main {
     height: 24px;
 }
 .formAutorization input[type="button"] {
-    background-color: #e6933a;
+    background-color: #df8b32;
     text-transform: uppercase;
     color: #ffffffcc;
     font-size: 20px;
-    padding: 5px;
     text-align: center;
     margin: 20px 0;
     font-weight: 700;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     width: 50%;
-    height: 35px;
+    height: 40px;
+}
+.rememberMe, .rememberMe a {
+    color: #ffffffd3;
+    text-decoration: none;
+    margin: 20px 0 0 0;
 }
 
 

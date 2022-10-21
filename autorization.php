@@ -16,7 +16,7 @@
         </header>
         <main>
             <div class="blockOpacity">
-                <table>
+                <table class="headlines">
                     <tr>
                         <td><h1><a href="autorization.php">Вход</a></h1></td>
                         <td><h1><a href="registration.php">Регистрация</a></h1></td>
@@ -28,6 +28,9 @@
                         <input type="email"><br>
                         <label>Пароль</label><br>
                         <input type="password"><br>
+                        <div class="rememberMe">
+                            <input type="checkbox"><a>Запомнить меня</a>
+                        </div>
                     </div>
                     <input type="button" value="Войти">  
                 </form>

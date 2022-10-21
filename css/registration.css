@@ -17,6 +17,7 @@ main {
 .blockOpacity {
     display: block;
     width: 30%;
+    border-radius: 5px;
     background: #ffffff18;
 }
 .blockOpacity table {
@@ -30,14 +31,14 @@ main {
 .blockOpacity td:last-child h1 {
     text-align: right;
 }
-.blockOpacity h1, h1 a {
+.headlines h1, .headlines h1 a {
     text-transform: uppercase;
     text-align: center;
     color: #ffffffd3;
     text-decoration: none;
     font-size: 30px;
 }
-.formAutorization {
+.formRegistration {
     width: 90%;
     border-top: 1px solid #ffffffcc;
     margin: 0 auto;
@@ -45,17 +46,17 @@ main {
     padding-bottom: 5px;
     text-align: center;
 }
-.formAutorization .blockPadding {
+.formRegistration .blockPadding {
     width: 80%;
     margin: 0 auto;
     text-align: left;
 
 }
-.formAutorization label {
+.formRegistration label {
     color: #ffffffbd;
     font-size: 14px;
 }
-.formAutorization input[type="email"], input[type="password"], input[type="text"], input[type="tel"]  {
+.formRegistration input[type="email"], input[type="password"], input[type="text"], input[type="tel"]  {
     background-color: #ffffffa8;
     color: #2e2215;
     margin: 5px 0 10px 0;
@@ -67,7 +68,7 @@ main {
     width: 100%;
     height: 24px;
 }
-.formAutorization input[type="button"] {
+.formRegistration input[type="button"] {
     background-color: #e6933a;
     text-transform: uppercase;
     color: #ffffffcc;
@@ -80,12 +81,12 @@ main {
     width: 50%;
     height: 35px;
 }
-.formAutorization .acceptData, .acceptData a {
+.formRegistration .acceptData, .acceptData a {
     color: #ffffffd3;
     text-decoration: none;
     margin: 20px 0 0 0;
 }
-.formAutorization .redtext {
+.formRegistration .redText {
     color: red;
     font-size: 16px;
 }
